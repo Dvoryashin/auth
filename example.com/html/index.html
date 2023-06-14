@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="form_auth_block">
+    <div class="form_auth_block_content">
+      <p class="form_auth_block_head_text">Регистрация</p>
+      <form class="form_auth_style" action="/php/login.php" method="post">
+        <label>Введите Ваше имя</label>
+        <input type="text" name="reg_name" placeholder="Введите Ваше имя" required >
+        <label>Введите Ваш пароль</label>
+        <input type="password" name="reg_pass" placeholder="Введите пароль" required >
+        <button class="form_auth_button" type="submit" name="form_reg_submit">Войти</button>
+      </form>
+    </div>
+    <p>Уже есть аккаунт? Тогда <a href="/php/signin.php">войдите</a></p>
+  </div>
+</body>
+</html>
